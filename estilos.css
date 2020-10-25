@@ -1,0 +1,736 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+nav li a {
+    background-color: #000000d7;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: block;
+    text-align: center;
+}
+
+nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.87);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.Menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+.BarraNav {
+    padding: 0px;
+    background-color: #000000fb;
+    border-bottom: #970808 1px solid;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+nav li:hover ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Titulo {
+    text-align: center;
+    font-size: 110px;
+    animation-name: Titulo;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    padding-top: 70px;
+    margin-bottom: 0px;
+    }
+
+@keyframes Titulo {
+    0% { color: #ff00dd;}
+    14.28% { color: #ff90f0;}
+    28.56% { color: #6e6bff;}
+    42.84% { color: #b7ddff;}
+    57.12% { color: #14fff8;}
+    71.40% { color: #59fffa;}
+    85.68% { color: #affffd;}
+    100% { color: #00eb83;}
+}
+
+.Subtitulo {
+    font-size: 30px;
+    text-align: center;
+}
+
+header {
+    height: 800px;
+    background-image: url(https://hardwaresfera.com/wp-content/uploads/2020/07/Cougar-MARS-120-escritorio-gaming.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.Logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.Subtitulo {
+    color: white;
+}
+
+.QuienesSomos {
+    color: #AA3939;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.Parrafo-Quien {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.Parrafo-Q-Flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.Video {
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 450px;
+}
+
+.GifPc {
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 450px;
+}
+
+.Gif-Video {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 120px;
+}
+
+.NuestrosProductos {
+    color: #AA3939;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.Producto-Color {
+    font-size: 45px;
+    color: #60A3F3;
+    background-color: white;
+}
+
+
+.Producto {
+    height: 90px;
+    width: 150px;
+}
+
+.Producto:hover {
+    transform: scale(1.25,1);
+    transition: 0.5s;
+}
+
+.Mother, .Procesadores, .PlacasDeVideo, .GabinetesPC, .FuentesDePoder, .MemoriasRam, .DiscosDurosSSD {
+    background-color: white;
+    color: black;
+    height: 725px;
+}
+
+.NuestrosProductos h3 h4 .Lista-Caract {
+    color: black;
+}
+
+.Lista-Productos {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.Texto-Caract {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: justify;
+}
+
+.Texto-Producto {
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Lista-Caract h5 {
+    text-align: left;
+}
+
+.Lista-Caract {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 300px;
+}
+
+.MetodosDePago { 
+    color: #AA3939;
+    padding-top: 75px;
+}
+
+.MetodoPago:hover {
+    transform: scale(1.25,1);
+    transition: 0.5s;
+}
+
+.MetPago {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+footer {
+    border-top: 1px solid white;
+    background-color: #970808;
+}
+
+.Footer {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Contactos-Ubicacion {
+    margin-right: 685px;
+    margin-top: 60px;
+}
+
+.Comentarios {
+    height: 50px;
+    height: 200px;
+}
+
+.Formulario {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border: 2px #60A3F3 solid !important;
+}
+
+.Boton:hover {
+    transform: scale(1.10,1);
+    transition: 0.1s;
+    background-color: #6a93e1;
+}
+
+.MapaGoogle {
+    height: 300px;
+    width: 350px;
+}
+
+.Lista-Contactos {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.Img-Cont {
+    width: 50px;
+    height: 50px;
+}
+
+.Img-Cont:hover {
+    transform: scale(1.25,1);
+    transition: 0.5s;
+}
+
+h5 {
+    text-align: center;
+}
+
+.Div-Carousel {
+    background-color: white;
+    margin: 0 auto;
+    width: 300px;
+    height: 350px;
+    border: #60A3F3 2px solid;
+    margin-bottom: 50px;
+}
+
+.Valoraciones {
+    text-align: center;
+    color:  #60A3F3;
+    padding-top: 0px;
+}
+
+.Nombre-Val {
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.Texto-Valoracion {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.Estrellas {
+    display: flex;
+    margin: 0 auto;
+    height: 30px;
+    width: 150px;
+}
+
+.Padding-Lista h6 {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.Control-Prev, .Control-Next {
+    width: 75%;
+}
+
+/*Pantallas extra pequeñas (col-*) */
+@media only screen and (max-width: 575px){
+    .Titulo {
+        font-size: 35px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+    }
+    .MapaGoogle {
+        height: 70px;
+        width: 80px;
+    }
+    h5 {
+        font-size: 10px;
+    }
+    h6 {
+        font-size: 9px;
+    }
+    .Subtitulo {
+        font-size: 9px;
+    }
+    .Logo {
+        height: 25px;
+        width: 25px;
+        margin-left: 1px;
+    }
+    header {
+        height: 300px;
+    }
+    .Section-Quienes {
+        height: 900px;
+        font-size: 10px;
+    }
+    .QuienesSomos {
+        font-size: 30px;
+    }
+    .Parrafo-Quien {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Producto-Color {
+        font-size: 25px;
+    }
+    .NuestrosProductos {
+        font-size: 30px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        margin-bottom: 0px;
+    }
+    .Gif-Video {
+        display: flex;
+        flex-direction: column;
+    }
+    .GifPc, .Video {
+        margin: 0 auto;
+        height: 300px;
+        width: 300px;
+    }
+    .Footer li {
+        font-size: 7px;
+    }
+    .Menu li {
+        font-size: 7px;
+    }
+    .Menu {
+        margin-right: 2px;
+    }
+    .Producto {
+        height: 85px;
+        width: 100px;
+    }
+    .Texto-Producto {
+        font-size: 9.5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Lista-Caract {
+        padding-left: 50px;
+    }
+    .Mother, .Procesadores, .PlacasDeVideo, .GabinetesPC, .FuentesDePoder, .MemoriasRam, .DiscosDurosSSD {
+        height: 700px;
+        font-size: 9px;
+    }
+    h3, h4 {
+        font-size: 13px;
+    }
+    .MetodosDePago {
+        padding-top: 150px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .MetodoPago {
+        height: 48px;
+        width: 70px;
+    }
+    .MetPago {
+        padding-top: 0px;
+        padding-bottom: 150px;
+    }
+    .Img-Cont {
+        width: 25px;
+        height: 25px;
+    }
+    .Footer {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    }
+    .Formulario {
+        color: black;
+        background-color: white;
+        padding: 0px;
+    }
+
+    .Padding-Lista {
+        padding-left: 15px;
+    }
+
+    .Padding-Lista h6 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Lista-Contactos {
+        margin-bottom: 10px;
+    }
+    
+    .Comentarios {
+        height: 30px;
+        width: 40px;
+    }
+
+/*Pantallas pequeñas (col-sm-*) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .Titulo {
+        font-size: 70px;
+        margin-bottom: 0px;
+        padding-top: 40px;
+    }
+    .MapaGoogle {
+        height: 130px;
+        width: 160px;
+    }
+    h6 {
+        font-size: 10px;
+    }
+    h5 {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .Subtitulo {
+        font-size: 16px;
+    }
+    .Logo {
+        height: 35px;
+        width: 35px;
+        margin-left: 1px;
+    }
+    header {
+        height: 500px;
+    }
+    .Section-Quienes {
+        height: 850px;
+        font-size: 12px;
+    }
+    .QuienesSomos {
+        font-size: 25px;
+    }
+    .Parrafo-Quien {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .Texto-Producto {
+        padding-left: 70px;
+        padding-right: 70px;
+        font-size: 9px;
+    }
+.Producto-Color {
+    font-size: 30px;
+}
+    .Lista-Caract {
+        padding-left: 150px;
+    }
+    .NuestrosProductos {
+        font-size: 25px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        margin-bottom: 0px;
+    }
+    .Gif-Video {
+        display: flex;
+        flex-direction: column;
+    }
+    .GifPc, .Video {
+        margin: 0 auto;
+        height: 285px;
+        width: 285px;
+    }
+    .Footer li  {
+        font-size: 9.5px;
+    }
+    .Menu li {
+        font-size: 11px;
+    }
+    .Menu {
+        margin-right: 2px;
+    }
+    .Producto {
+        height: 60px;
+        width: 70px;
+    }
+    .Mother, .Procesadores, .PlacasDeVideo, .GabinetesPC, .FuentesDePoder, .MemoriasRam, .DiscosDurosSSD {
+        height: 500px;
+        font-size: 10px;
+    }
+    h3, h4 {
+        font-size: 20px;
+    }
+    .MetodosDePago {
+        padding-top: 110px;
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+    .MetodoPago {
+        height: 68px;
+        width: 90px;
+    }
+    .MetPago {
+        padding-top: 0px;
+        padding-bottom: 160px;
+    }
+    .Img-Cont {
+        width: 25px;
+        height: 25px;
+    }
+    .Footer {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    }
+    .Formulario {
+        margin-bottom: 5px;
+    }
+    .Padding-Lista {
+        padding-left: 35px;
+    }
+    .Padding-Lista h6 {
+        font-size: 10px;
+    }
+
+
+/*Pantallas medianas (col-md-*) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .Titulo {
+        font-size: 85px;
+        margin-bottom: 0px;
+        padding-top: 50px;
+    }
+    .MapaGoogle {
+        height: 170px;
+        width: 220px;
+    }
+    h6 {
+        font-size: 17px;
+        text-align: center;
+    }
+    h5 {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .Subtitulo {
+        font-size: 20px;
+    }
+    .Logo {
+        height: 45px;
+        width: 45px;
+        margin-left: 1px;
+    }
+    header {
+        height: 600px;
+    }
+    .Section-Quienes {
+        height: 700px;
+        font-size: 14.5px;
+    }
+    .QuienesSomos {
+        font-size: 30px;
+    }
+    .Parrafo-Quien {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .NuestrosProductos {
+        font-size: 30px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        margin-bottom: 0px;
+    }
+    .Producto-Color {
+        font-size: 35px;
+    }
+    .Texto-Producto {
+        padding-left: 90px;
+        padding-right: 90px;
+        font-size: 14px;
+    }
+    .Lista-Caract {
+        padding-left: 200px;
+    }
+    .Gif-Video {
+        flex-wrap: wrap;
+    }
+    .GifPc, .Video {
+        height: 345px;
+        width: 345px;
+    }
+    .Footer li  {
+        font-size: 13px;
+    }
+    .Menu li {
+        font-size: 13px;
+    }
+    .Menu {
+        margin-right: 2px;
+    }
+    .Producto {
+        height: 90px;
+        width: 100px;
+    }
+    .Mother, .Procesadores, .PlacasDeVideo, .GabinetesPC, .FuentesDePoder, .MemoriasRam, .DiscosDurosSSD {
+        height: 700px;
+        font-size: 14px;
+    }
+    h3, h4 {
+        font-size: 25px;
+    }
+    .MetodosDePago {
+        padding-top: 150px;
+        padding-bottom: 80px;
+        font-size: 30px;
+    }
+    .MetodoPago {
+        height: 98px;
+        width: 120px;
+    }
+    .MetPago {
+        padding-top: 0px;
+        padding-bottom: 200px;
+    }
+    .Img-Cont {
+        width: 40px;
+        height: 40px;
+    }
+    .Footer {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    }
+    .Formulario {
+        margin-bottom: 5px;
+    }
+    .Padding-Lista {
+        padding-left: 35px;
+    }
+
+    .Padding-Lista h6 {
+        font-size: 15px;
+    }
+
+
+/*Pantallas grandes (col-lg-*) */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .MapaGoogle {
+        height: 200px;
+        width: 285px;
+    }
+}
